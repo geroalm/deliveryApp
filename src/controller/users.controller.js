@@ -1,3 +1,4 @@
+import { UserService  } from "../service/users.service.js";
 export class UserController{
 
     static getUser = async (req, res) => {

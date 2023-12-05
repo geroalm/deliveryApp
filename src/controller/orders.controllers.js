@@ -1,3 +1,4 @@
+import { OrderService  } from "../service/orders.service.js";
 export class OrderController {
 
     static getOrder = async(req,res)=>{
